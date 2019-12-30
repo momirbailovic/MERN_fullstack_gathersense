@@ -1,0 +1,319 @@
+.tableroot {
+    width: 95%;
+    margin: auto;
+}
+.autoHeight {
+    height: auto;
+}
+.tableWrapper {
+    max-height: 637;
+    overflow: auto;
+}
+.formgroupD {
+    padding: 10px;
+}
+.inputtxtD {
+    background-color: #F2F2F2;
+    border-width: 0px;
+    width: 100%;
+}
+.divCard {
+    display: flex;
+    padding: 10px;
+}
+.trtxt {
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    color: #0F1B33;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+.trtxts {
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    color: #0F1B33;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+.trtxtb {
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    color: #666;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+.dialogAdd {
+    background-color: #F2F2F2;
+    border-width: 0px;
+    width: 100%;
+    display: flex;
+}
+.train1Card {
+    /* min-width: 250px;
+    height: 363px; */
+    min-width: 100%;
+    width: 100%;
+    /* height: 363px; */
+    height: auto;
+}
+.train1Cardresult {
+    /* min-width: 250px;
+    width: 269px;
+    height: 363px; */
+    min-width: 95%;
+    width: 95%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.reportCardAvt {
+    /* min-width: 250px;
+    width: 269px; */    
+    min-width: 95%;
+    width: 100%;
+    height: 190px;
+}
+.reportCard {
+    /* min-width: 250px;
+    width: 269px; */    
+    min-width: 95%;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.reportCardView {
+    /* min-width: 250px;
+    width: 269px; */    
+    min-width: 95%;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.trainCard {
+    min-width: 250px;
+    width: 95%;
+    height: auto;
+}
+.autoCard {
+    min-width: 250px;
+    width: 95%;
+    height: auto;
+}
+.trainAvatar{
+    margin: auto;
+    padding: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.h3txtfixed {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* identical to box height, or 32px */
+    align-items: center;
+    text-align: center;
+    color: #979797;
+    margin-top: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.sessionTag {
+    margin: 0px 0px 30px;
+    height: 80px;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+}
+.sessionAdd {
+    margin: 0px 0px 30px;
+    height: 80px;
+    width: auto;
+    display: flex;
+    border: 2px dotted #C1D5F4;
+    border-radius: 10px;
+    background: transparent;
+    color: #C1D5F4;
+    cursor: pointer;
+}
+.hrset {
+    margin: 0px;
+    margin-top: 20px;
+    width: 50px;
+    border: 1px solid #ddd;
+}
+.blockdiv {
+    display: block;
+    width: 100%;
+}
+.editcard {
+    min-width: 450px;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.formgrouptxt {
+    padding: 10px;
+    margin: 0px;
+    width: 70%;
+}
+.formgrouptxt90 {
+    padding: 10px;
+    margin: 0px;
+    width: 90%;
+}
+.formgrouphalf {
+    padding: 10px;
+    margin: 0px;
+    width: 50%;
+}
+.formgroupch {
+    padding: 10px;
+    margin: 0px;
+    width: 30%;    
+}
+.formgroupch10 {
+    padding: 10px;
+    margin: 0px;
+    width: 10%;    
+    align-self: right;
+}
+.betweendiv {    
+    display: flex;
+    justify-content: space-between;
+}
+.cresebnt {
+    background-color: rgb(255, 71, 91);
+    border-radius: 10px;
+    border-width: 0px;
+    margin: 10px;
+}
+.savdrbnt {
+    border: 1px solid #f00;
+    border-radius: 10px;
+    border-width: 0px;
+    margin: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: transparent;
+
+}
+.togglebntgroup {
+    display: flex;
+    border: 1px solid #eee;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: '#f2f2f2'
+}
+.toggleCard {
+    min-width: 250px;
+    width: 100%;
+    height: auto;
+}
+.toggletxt {
+    width: 95%;
+    background-color: #f2f2f2;
+    border-width: 0;
+    margin: 20px;
+}
+.bothdiv {
+    display: flex;
+}
+@media screen and (max-width: 450px) {
+    .bothdiv {
+        display: block;
+    }
+}
+.leftdiv {
+    width: 25%;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media screen and (max-width: 450px) {
+    .leftdiv {
+        width: 95%;
+        height: auto;
+    }
+}
+.rightdiv {
+    width: 75%;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+@media screen and (max-width: 450px) {
+    .rightdiv {
+        width: 95%;
+        height: auto;
+    }
+}
+.MuiExpansionPanelSummary-content {
+    margin: 12px 0;
+    display: flex;
+    flex-grow: 0;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+}
+.bg-FFA800 {
+    background-color: #FFA800!important;
+}
+.bg-FF475B {
+    background-color: #FF475B!important;
+}
+.bg-551ECB {
+    background-color: #551ECB!important;
+}
+.bg-009FFA {
+    background-color: #009FFA!important;
+}
+.bg-00B187 {
+    background-color: #00B187!important;
+}
+.bg-CF6BE8 {
+    background-color: #CF6BE8!important;
+}
+.bg-962010 {
+    background-color: #962010!important;
+}
+.bg-FF6B00 {
+    background-color: #FF6B00!important;
+}
+.bg-color9 {
+    background-color: #fff!important;
+}
+.typeheadset {
+    border-width: 0;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    margin: 10px;
+}
+.rbt-input-multi {
+    background-color: #F2F2F2;
+    border-width: 0;
+    padding: 10px;
+    padding-right: 0px;
+    margin: 0px;
+    border-radius: 5px;
+}
+.rbt-token {
+    background-color: #e7f4ff;
+    border: 1 solid red;
+    border-radius: 2px;
+    color: #1f8dd6;
+    display: inline-block;
+    line-height: 1em;
+    margin: 0 3px 3px 0;
+    padding: 4px 7px;
+    position: relative;
+}

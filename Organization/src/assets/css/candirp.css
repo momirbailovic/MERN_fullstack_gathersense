@@ -1,0 +1,151 @@
+.root {
+    display: flex;
+}
+.card {
+    /* min-width: 300px;
+    width: 328px; */
+    min-width: 95%;
+    width: 95%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.rounded-circle1{
+    border-radius: 33px;
+    width:67px;
+    height: 67px;
+    background: rgba(0, 159, 250, 0.05);
+    align-items: center;
+    text-align: center;
+    margin-left: 65px;
+    padding:22px;
+}
+.rounded-circle2{
+    border-radius: 33px;
+    width:67px;
+    height: 67px;
+    background: rgba(0, 177, 135, 0.05);
+    align-items: center;
+    text-align: center;
+    margin-left: 65px;
+    padding:22px;
+}
+
+.rounded-circleimg{
+    border-radius: 50%;
+    width:95px;
+    height: 95px;
+    margin: auto;
+    padding: 10px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.h2txt {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    color: #0F1B33;
+}
+.h3txt {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+    color: #0F1B33;
+}
+.h3txtb {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+    color: #666;
+}
+.h3txtyc {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+    color: #242222;
+}
+.formgroupC {
+    padding: 0px;
+}
+.formgroupO {
+    padding: 10px;
+}
+.inputtxtC {
+    background-color: #F2F2F2;
+    border-width: 0px;
+    width: 100%;    
+}
+.inputtxtAddtitle {
+    background-color: #FAFAFA;
+    border-width: 0px;
+    width: 100%;    
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    color: #0F1B33;    
+}
+.inputtxtAddDescription {
+    background-color: #FAFAFA;
+    border-width: 0px;
+    width: 100%;    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+    color: #0F1B33;
+}
+.inputtxtO {
+    background-color: #F2F2F2;
+    border-width: 0px;
+    width: 100%;
+}
+.box {
+    width: 216px;
+    height: auto;
+    margin: auto;
+}
+.dot3 {
+    float: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.poplinkcli  {
+    cursor: pointer;
+    font-style: normal;
+    font-size: 16px;
+    padding: 10px;
+    color: #000;
+    text-align: center;
+    z-index: 10000;
+}
+.poplinkcli:hover {
+    color: red;
+}
+.popdot  {
+    cursor: pointer;
+    font-style: normal;
+    font-size: 16px;
+    color: #000;
+    margin: 0px;
+    text-align: center;
+}
+.popdot:hover {
+    color: red;
+}
+.middle2bnt {    
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+}

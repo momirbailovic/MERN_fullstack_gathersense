@@ -1,0 +1,78 @@
+.overCard {
+    min-width: 215px;
+    width: 95%;
+    height: 219px;
+}
+.card2 {
+    /* min-width: 400px;
+    width: 438px;
+    height: 219px; */
+    min-width: 95%;
+    width: 95%;
+    height: auto
+}
+.titleCardover {
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    color: #0F1B33;
+    padding: 0px;
+    margin: 0px;
+}
+.divCardover {
+    display: flex;
+    padding: 10px;
+}
+.tranintxt {
+    font-size: 16px;
+    align-items: center;
+    text-align: center;
+    color: #0F1B33;
+    padding-left: 20px;
+}
+.rounded-circle1over{
+    border-radius: 33px;
+    width:67px;
+    height: 67px;
+    background: rgba(0, 159, 250, 0.05);
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding:22px;
+}
+.rounded-circle2over{
+    border-radius: 33px;
+    width:67px;
+    height: 67px;
+    background: rgba(0, 177, 135, 0.05);
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding:22px;
+}
+.rootover {
+    flex-grow: 1;
+    display: flex;
+    margin-top: 10px;
+}
+.h2txtover {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 200%;
+    /* identical to box height, or 72px */
+    align-items: center;
+    text-align: center;
+    color: #0F1B33;
+}
+.h3txtover {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    /* identical to box height, or 32px */
+    align-items: center;
+    text-align: center;
+    color: #979797;
+}
