@@ -20,7 +20,7 @@
     "dotenv": "^8.1.0",
     "ejs": "2.4.1",
     "errorhandler": "1.4.3",
-    "express": "4.13.4",
+    "express": "4.17.3",
     "express-jwt": "3.3.0",
     "express-session": "1.13.0",
     "file-system": "^2.2.2",
